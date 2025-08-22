@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Snake Game",
+  "description": "A classic snake game built with React. Control the snake to eat food and grow, but avoid hitting the walls or your own tail. Features persistent high scores and increasing speed.",
+  "requestFramePermissions": []
+}
