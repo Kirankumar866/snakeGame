@@ -15,7 +15,7 @@ const Controls: React.FC<ControlsProps> = ({ onDirectionChange }) => {
     
     return (
         <div className="mt-6 md:hidden">
-            <div className="grid grid-cols-3 grid-rows-3 gap-3 w-48 h-48">
+            <div className="grid grid-cols-3 grid-rows-3 gap-3 w-44 h-44">
                 <div className="col-start-2 row-start-1">
                      <ControlButton
                         direction={{ x: 0, y: -1 }}

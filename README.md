@@ -4,6 +4,25 @@ A modern and responsive implementation of the classic Snake game, built with Rea
 
 This project features a clean, component-based architecture using custom hooks to separate game logic from the UI, and it's fully playable on both desktop and mobile devices.
 
+### Gameplay Preview
+
+```
+  +----------------------------------------+
+  |  SCORE: 40       HIGH SCORE: 120       |
+  |                                        |
+  |                                        |
+  |                  o                     |
+  |                                        |
+  |                                        |
+  |              ■■■■■■▶                   |
+  |                                        |
+  |                                        |
+  |                                        |
+  +----------------------------------------+
+```
+*(We recommend replacing this ASCII art with a real screenshot or GIF of your game!)*
+
+
 ## ✨ Features
 
 *   **Classic Gameplay**: The timeless fun of Snake, reimagined with a modern aesthetic.

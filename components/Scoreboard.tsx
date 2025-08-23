@@ -7,7 +7,7 @@ interface ScoreboardProps {
 
 const Scoreboard: React.FC<ScoreboardProps> = ({ score, highScore }) => {
     return (
-        <div className="w-full max-w-md flex justify-between items-center my-4 text-lg">
+        <div className="w-full flex justify-between items-center my-4 text-base sm:text-lg">
             <div className="bg-slate-800 px-4 py-2 rounded-lg">
                 <span>SCORE: </span>
                 <span className="font-bold text-cyan-400">{score}</span>

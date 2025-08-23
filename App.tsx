@@ -20,22 +20,24 @@ const App: React.FC = () => {
     } = useSnakeGame();
 
     return (
-        <div className="min-h-screen bg-slate-900 text-white p-4 flex flex-col items-center justify-center font-mono select-none">
+        <div className="min-h-screen bg-slate-900 text-white p-2 sm:p-4 flex flex-col items-center justify-start font-mono select-none">
             <Header />
-            <Scoreboard score={score} highScore={highScore} />
+            <div className="w-full max-w-lg flex flex-col items-center">
+                <Scoreboard score={score} highScore={highScore} />
 
-            <div className="relative border-4 border-slate-700 rounded-lg shadow-2xl">
-                <GameBoard
-                    snake={snake}
-                    food={food}
-                    canvasRef={canvasRef}
-                    directionRef={directionRef}
-                    onDirectionChange={handleDirectionChange}
-                />
-                <GameOverlay isAlive={isAlive} score={score} onStart={startGame} />
+                <div className="relative w-full border-4 border-slate-700 rounded-lg shadow-2xl">
+                    <GameBoard
+                        snake={snake}
+                        food={food}
+                        canvasRef={canvasRef}
+                        directionRef={directionRef}
+                        onDirectionChange={handleDirectionChange}
+                    />
+                    <GameOverlay isAlive={isAlive} score={score} onStart={startGame} />
+                </div>
+                
+                <Controls onDirectionChange={handleDirectionChange} />
             </div>
-            
-            <Controls onDirectionChange={handleDirectionChange} />
         </div>
     );
 };

@@ -139,7 +139,7 @@ const GameBoard: React.FC<GameBoardProps> = ({ snake, food, canvasRef, direction
             ref={canvasRef}
             width={CANVAS_SIZE}
             height={CANVAS_SIZE}
-            className="bg-slate-800 rounded"
+            className="bg-slate-800 rounded w-full h-auto"
         />
     );
 };
