@@ -6,21 +6,8 @@ This project features a clean, component-based architecture using custom hooks t
 
 ### Gameplay Preview
 
-```
-  +----------------------------------------+
-  |  SCORE: 40       HIGH SCORE: 120       |
-  |                                        |
-  |                                        |
-  |                  o                     |
-  |                                        |
-  |                                        |
-  |              ■■■■■■▶                   |
-  |                                        |
-  |                                        |
-  |                                        |
-  +----------------------------------------+
-```
-*(We recommend replacing this ASCII art with a real screenshot or GIF of your game!)*
+
+<img width="815" height="862" alt="image" src="https://github.com/user-attachments/assets/400a3616-9087-44a2-a1bf-88a62735e963" />
 
 
 ## ✨ Features
